@@ -1,3 +1,15 @@
+
+/**
+* @fileoverview contiene la logica para el agregar eliminar editar y buscar 
+*               los jugadores deaqui solo se usa buscar en en frontend
+* @author Yeferson Valencia
+* @version 0.1
+*/
+/**
+* 
+*/
+//--------
+
 const Player = require("../models/Player");
 
 
@@ -22,7 +34,7 @@ exports.obtenerPlayers = async (req, res) => {
 
     try {
         
-        const player = await Player.find(); // encontrar el  atributo  producto
+        const player = await Player.find(); 
         res.json(player)
         
     } catch (error) {

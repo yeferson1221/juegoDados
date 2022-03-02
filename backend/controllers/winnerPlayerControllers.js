@@ -1,3 +1,14 @@
+/**
+* @fileoverview contiene la logica para el agregar eliminar editar y buscar 
+*               los jugadores que ganen deaqui solo se usa buscar en en frontend
+* @author Yeferson Valencia
+* @version 0.1
+*/
+/**
+* 
+*/
+//--------
+
 const WinnerPlayer = require("../models/WinnerPlayer");
 
 

@@ -1,3 +1,14 @@
+/**
+* @fileoverview contiene las apis donde podemos consumir sea eliminar, guardar,
+                actualizar o listar del jugador
+* @author Yeferson Valencia
+* @version 0.1
+*/
+/**
+* 
+*/
+//--------
+
 // Rutas para jugador
 const express = require('express');
 const router = express.Router();

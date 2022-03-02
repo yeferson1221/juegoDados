@@ -1,3 +1,16 @@
+
+/**
+* @fileoverview Libreria mongose guardada constante mongoose
+*
+* @author Yeferson Valencia
+* @version 0.1
+*/
+/**
+* Muestra la conexion a la BD con mongo, esta coneccion esta hecha desde el cluster
+*  si se decia cambiar del cluster a local ir a variables.env
+*/
+//--------
+
 const mongoose = require('mongoose');
 require('dotenv').config({ path: 'variables.env' });
 
